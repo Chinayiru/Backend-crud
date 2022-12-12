@@ -1,14 +1,12 @@
 package yi.springboot.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import yi.springboot.pojo.User;
+import yi.springboot.pojo.Account;
 
 /**
  * @aythor yi
- * @data 2022/12/1   16:24:33
+ * @data 2022/12/3  18:16:51
  * @Description
  */
-
-public interface UserMapper extends BaseMapper<User> {
-
+public interface AccountMapper extends BaseMapper<Account> {
 }

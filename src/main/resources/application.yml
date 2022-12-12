@@ -2,7 +2,7 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/back?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/sole?serverTimezone=UTC
     username: root
     password: root
   mvc:
@@ -15,10 +15,5 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
-files:
-  uploda:
-    path: D:\javaSpringBoot+mybatis后台管理\file\
 
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 

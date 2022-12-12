@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.rabbitmq.dynamic.primary",
+      "type": "java.lang.String",
+      "description": "Description for spring.rabbitmq.dynamic.primary."
+  }
+] }

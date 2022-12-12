@@ -21,7 +21,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 @Configuration
 @SpringBootApplication
 @EnableOpenApi
-public class SwaggerConfig  {
+public class SwaggerConfig {
 
     /**
      * 创建API应用
@@ -60,6 +60,7 @@ public class SwaggerConfig  {
 //                .version(version)
 //                .build();
 //    }
+
     /**
      * 创建该API的基本信息（这些基本信息会展现在文档页面中）
      * 访问地址：http://ip:port/swagger-ui.html

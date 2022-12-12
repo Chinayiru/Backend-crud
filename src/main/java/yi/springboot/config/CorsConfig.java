@@ -5,6 +5,7 @@ package yi.springboot.config;
  * @data 2022/10/24  13:12:26
  * @Description
  */
+
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

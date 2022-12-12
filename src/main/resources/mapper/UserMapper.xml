@@ -5,7 +5,9 @@
 <mapper namespace="yi.springboot.mapper.UserMapper">
 
     <select id="testPage" resultType="yi.springboot.pojo.User">
-        select id,username,password,nickname,email,phone,address from t_user where id > #{id}
+        select id, username, password, nickname, email, phone, address
+        from t_user
+        where id > #{id}
     </select>
     <select id="selectByPageAndCondition" resultType="yi.springboot.pojo.User">
     </select>
